@@ -4,6 +4,7 @@
   "description": "A CLI tool to do any interesting things",
   "author": "dy <ldy1994@outlook.com>",
   "license": "MIT",
+  "repository": "https://github.com/liudingyuan/dora-cli",
   "bin": {
     "dora": "./bin/dora.js"
   },
