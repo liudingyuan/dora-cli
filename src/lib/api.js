@@ -20,3 +20,9 @@ exports.getHitokoto = function() {
     }
   })
 }
+
+// bangumi calendar
+const bgmApi = 'https://api.bgm.tv/calendar'
+exports.getBangumi = function() {
+  return axios.get(bgmApi)
+}

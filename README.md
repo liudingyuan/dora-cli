@@ -28,7 +28,19 @@ yarn global add @mii/dora-li
   dora init react-app webpack
   ```
 
-    Options:
+  Options:
 
   * `dir`: Directory name.
   * `bundler`: Select a bundler(webpack or rollup).
+
+* `bangumi`
+
+  **dora bangumi [time]**: check bangumi calendar
+
+  ```bash
+  dora bangumi
+  ```
+
+  options:
+
+  * `time`: `'today'` or `'week'`
